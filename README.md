@@ -1,10 +1,8 @@
 # Image Segmentation combining Graphical Model and Deep Neural Network
 
-This project contains the implementation of GMDNN: combination of SegNet with CRF as RNN written in python 3.6
-
-SegNet implementation: https://github.com/divamgupta/image-segmentation-keras  
-CRF as RNN implementation: https://github.com/sadeepj/crfasrnn_keras
-
+This project includes the implementation of GMDNN: combination of graphical model and Deep Neural Network for Image Segmentation  
+Example: SegNet with CRF as RNN   
+The project is written in python 3.6
 
 ##  Installation
 
@@ -22,7 +20,7 @@ cd cpp
 
 After that you can run train script as mentioned on Training the Model.
 
-### Tested with GPU:
+### To test with GPU:
 	pip install --upgrade tensorflow-gpu==1.4
 	conda install -c menpo opencv3 
 
@@ -87,3 +85,8 @@ python train.py \
  --input_width=640 \
  --model_name="segnet_res_crf"
 ```
+
+
+## Reference
+SegNet implementation: https://github.com/divamgupta/image-segmentation-keras  
+CRF as RNN implementation: https://github.com/sadeepj/crfasrnn_keras
