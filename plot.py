@@ -1,13 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-# Create range of values for parameter
+
 param_range = np.arange(1, 11, 1)
-# Calculate accuracy on training and test set using range of parameter values
-
-
-# Plot accurancy bands for training and test sets
-# plt.fill_between(param_range, train_mean - train_std, train_mean + train_std, color="gray")
-# plt.fill_between(param_range, test_mean - test_std, test_mean + test_std, color="gainsboro")
 
 
 def plot_training_acc():
